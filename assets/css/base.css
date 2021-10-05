@@ -1,0 +1,44 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #828282;
+    --navbar-height: 55px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__banner img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+    .header__banner-text {
+        transform: translate(-50%,50%);
+    }
+    .container__about-btn{
+        margin-bottom: 30px;
+    }
+}
+
+
